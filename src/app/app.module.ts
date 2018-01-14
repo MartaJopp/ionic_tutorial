@@ -1,3 +1,6 @@
+
+//this document is the entry point for the application
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
@@ -9,6 +12,9 @@ import { ListPage } from '../pages/list/list';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+
+//@ngModule is the root module that controls the rest of the application
+//This is super similar to ng-app with AngularJS
 
 @NgModule({
   declarations: [

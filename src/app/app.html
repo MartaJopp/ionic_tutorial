@@ -1,3 +1,5 @@
+<!--this is the main template for our application - it was set in the app.component-->
+<!--menu is bound to content-->
 <ion-menu [content]="content">
 
   <ion-header>
@@ -15,5 +17,5 @@
   </ion-content>
 
 </ion-menu>
-
+<!--the root binding sets the first or root page-->
 <ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>
